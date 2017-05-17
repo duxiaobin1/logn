@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/react.css"/>
+	<link rel="stylesheet" href="css/forget.css"/>
+	<script src="js/jquery-3.1.1.min.js"> </script>
+	<script src="js/rem.js"> </script>
+	<script src="js/forget.js"></script>
+</head>
+<body>
+	<div id="registered">
+		<h2>设置密码</h2>
+		<div class="form">
+			<form action="forget.json" method="get">
+				<div class="username form_div">
+					<label>用户名：<br><input type="text" placeholder="输入用户名"/></label>
+					<span style="display:none"></span>
+				</div>
+				<div class="phone form_div">
+					<label>手机号：<br><input type="text" placeholder="输入手机号"/></label>
+					<span style="display:none"></span>
+				</div>
+				<div class="form_div phone_code clearfix ">
+					<input type="text" placeholder="输入验证码" class="fl sidecode" />
+					<input type="button" value="获取验证码"  class="fl getcode"/>
+					<span style="display:none"></span>
+				</div>
+				<div class="password form_div">
+					<label>新密码：<br><input type="password" placeholder="输入新密码"/></label>
+					<span style="display:none"></span>
+				</div>
+				<div class="form_submit clearfix" >
+					<input type="button" value="确定" class="fl sidePassword" />
+					<a href="logn.html" class="fr">想起密码了？</a>
+					<a href="registered.html" class="fr">还没有账号？去注册</a>
+					<span style="display:none"></span>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script>
+		
+	</script>
+</body>
+</html>
+ 

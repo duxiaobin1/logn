@@ -1,0 +1,103 @@
+#registered{
+	width:4rem;
+	background:#eee;
+	margin:1.5rem auto;
+	border-radius:0.1rem;
+}
+#registered h2{
+	background:#6D4A70;
+	text-align: left;
+	border-radius:0.1rem 0.1rem 0 0;
+	padding:0.2rem 0.34rem;
+	color:#fff;
+}
+.form{
+	width: 100%;
+	padding:0.3rem 0.3rem 0.4rem;
+
+}
+.form_div{
+	width: 100%;
+	position:relative;
+}
+.form_div input{
+	width:96%;
+	padding:0.1rem 2%;
+	margin-top:0.02rem;
+	border-radius:0.05rem;
+}
+.phone_code input{
+	width:40%;
+	padding:0.1rem 2%;
+	margin-top:0.16rem;
+	border-radius: 0.05rem;
+}
+.phone_code input:nth-child(2){
+	margin-left: 16%;
+}
+.form_submit{
+	width:96%;
+	padding:0.1rem 2%;
+	margin-top:0.5rem;
+}
+.form_submit input{
+	background:#6c49cf;
+	padding:0.1rem 0.25rem;
+	font-size:0.2rem;
+	border-radius:0.05rem;
+}
+.form_submit a{
+	display:block;
+	padding:0.02rem 0 0.02rem 0.2rem ;
+	font-size:0.14rem;
+}
+.promptred{
+    width: 140px;
+    min-height: 30px;
+    background: red;
+    position: absolute;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    margin:20px 0 10px 10%;
+    padding: 10px 6px 10px 10px;
+    white-space:normal;
+    top: 0.05rem;
+    right:-1.4rem;    
+}
+.promptred:before {
+    content: "";
+    width: 0;
+    height: 0;
+    right: 100%;
+    top: 10px;
+    position: absolute;
+    border-top: 6px solid transparent;
+    border-right: 13px solid red;
+    border-bottom: 6px solid transparent;
+}  
+.promptyellow {
+    width: 140px;
+    min-height: 30px;
+    background: yellow;
+    position: absolute;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    margin:20px 0 10px 10%;
+    padding: 10px 6px 10px 10px;
+    white-space:normal; 
+    top: 0.05rem;
+    right:-1.4rem;    
+}
+.promptyellow:before {
+    content: "";
+    width: 0;
+    height: 0;
+    right: 100%;
+    top: 10px;
+    position: absolute;
+    border-top: 6px solid transparent;
+    border-right: 13px solid yellow;
+    border-bottom: 6px solid transparent;
+}  
